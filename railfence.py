@@ -2,7 +2,7 @@ depth = int(input("Enter the Depth: "))
 plaintext = input("Enter the Plain text: ")
 
 rails = ['' for _ in range(depth)]
-dir = 1  # 1 for down, -1 for up
+dir = 1
 row = 0
 
 for char in plaintext:
