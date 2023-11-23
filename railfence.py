@@ -8,8 +8,6 @@ row = 0
 for char in plaintext:
     rails[row] += char
     row += dir
-
-    # Change direction when reaching the top or bottom rail
     if row == 0 or row == depth - 1:
         dir *= -1
 
