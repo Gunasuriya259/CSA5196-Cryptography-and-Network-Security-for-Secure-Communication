@@ -9,3 +9,9 @@ for i in p:
     c = c+a[d]
 print("Cipher Text : "+c)
         
+m = ''
+for i in c:
+    e = a.index(i)
+    d = (e-k)%26
+    m = m+a[d]
+print("Plain Text : "+m)
